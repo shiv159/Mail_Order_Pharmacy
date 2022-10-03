@@ -1,0 +1,25 @@
+INSERT INTO DRUG_DETAILS VALUES ('D1', 'Paracetamol', parsedatetime('22-11-2024', 'dd-MM-yyyy'), parsedatetime('22-11-2020', 'dd-MM-yyyy'), 'Saranyu');
+INSERT INTO DRUG_DETAILS VALUES ('D2', 'Citrazine', parsedatetime('22-11-2024', 'dd-MM-yyyy'), parsedatetime('22-10-2020', 'dd-MM-yyyy'), 'Shivam');
+INSERT INTO DRUG_DETAILS VALUES ('D3', 'Aspirin', parsedatetime('22-11-2024', 'dd-MM-yyyy'), parsedatetime('06-12-2020', 'dd-MM-yyyy'), 'Prathyusha');
+INSERT INTO DRUG_DETAILS VALUES ('D4', 'Zincovit', parsedatetime('22-11-2024', 'dd-MM-yyyy'), parsedatetime('07-06-2020', 'dd-MM-yyyy'), 'Chandu');
+INSERT INTO DRUG_DETAILS VALUES ('D5', 'Aceclofenac', parsedatetime('22-11-2024', 'dd-MM-yyyy'), parsedatetime('09-08-2020', 'dd-MM-yyyy'), 'Zilekha');
+INSERT INTO DRUG_DETAILS VALUES ('D6', 'Calcitrol', parsedatetime('22-11-2024', 'dd-MM-yyyy'), parsedatetime('07-09-2020', 'dd-MM-yyyy'), 'Sanjana');
+
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('1', 'Visakhapatnam', 30, 'D1');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('2', 'Bangalore',20, 'D1');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('3', 'Mumbai', 30, 'D1');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('4', 'Hyderabad', 30, 'D1');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('5', 'Visakhapatnam', 30, 'D2');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('6', 'Bangalore', 20, 'D2');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('7', 'Mumbai', 30, 'D2');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('8', 'Hyderabad', 30, 'D2');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('9', 'Visakhapatnam', 30, 'D3');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('10', 'Bangalore', 20, 'D3');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('11', 'Visakhapatnam', 40, 'D4');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('12', 'Bangalore', 20, 'D4');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('13', 'Mumbai', 50, 'D5');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('14', 'Banglore', 20, 'D5');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('15', 'Hyderabad', 10, 'D5');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('16', 'Hyderabad', 30, 'D6');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('17', 'Visakhapatnam', 50, 'D6');
+INSERT INTO DRUG_LOCATION_DETAILS VALUES('18', 'Mumbai', 20, 'D6');
